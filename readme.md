@@ -2,6 +2,11 @@ Frequencies taken from https://github.com/chriskempson/japanese-subtitles-word-f
 
 Simple script to add frequency count (given it exists as field on note) to new cards, allowing a user to reposition the order of new cards. This will allow someone to reorder their personal anki decks occasionally to ensure that the most important cards are being learned first (highest frequency).
 
+Instructions:
+
+Update the deck name in the original search, deck:Personal
+Run python main.py
+
 To setup deck follow below:
 
 Go to browser > 'Fields' > choose the field > check 'Sort by this field in browser' > 'Save' > select all cards in your deck > 'Reposition' > Leave standard settings and press 'OK'.
