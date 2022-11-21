@@ -33,6 +33,7 @@ def main():
             'notes': res['result']
         },
     }).json()
+    # Could also use pprint
     # print(json.dumps(detail_res, indent=2, ensure_ascii=False))
     for x in tqdm(detail_res['result']):
         word_in_kanji = x['fields']['Vocabulary-Kanji']['value']
