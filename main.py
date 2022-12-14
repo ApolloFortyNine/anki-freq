@@ -19,7 +19,7 @@ def main():
         'action': 'findNotes',
         'version': 6,
         'params': {
-            'query': 'deck:Personal is:new',
+            'query': 'deck:Personal is:new Frequency-Count:',
         },
     }).json()
     print(len(res['result']))
